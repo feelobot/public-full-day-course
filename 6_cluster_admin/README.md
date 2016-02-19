@@ -10,7 +10,7 @@
 * Add an additional data-only node to a cluster.
 * Create a retention policy that changes the replication data in a cluster.
 
-## Quiz 4:30-4:50
+## Exercise 4:30-4:50
 
 * Instructors will assign groups of 3 (there will be one group of 2)
 * Once groups are formed we will hand out IPs to AWS instances
