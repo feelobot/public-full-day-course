@@ -25,20 +25,29 @@ mem,location=us-west host="server2",value=4 1444234982000
 mem,location=us-west host="server2",value=1 1444234982000
 ```
 
+server 2 would get overwritten at the same time stamp so only one value would get stored. you need more tags to fix.
+
 ## Question 2:
 What is the problem with having a large number of independent tags?
-
 ```
 random,week=10,weekday=tues,meowmix=k,birthday=july,...,host=api0 value=2 144423498200
 ```
+independent tags will have more in memory reads.
+
 ## Question 3:
 What is a retention policy?
+
+it lives inside a database and it contains all of the datapoints.
 
 ## Question 4:
 What is the relationship between retention policies, databases, and series.
 
+database contains retention policies and retention policies contain series.
+
 ## Question 5:
 What is a continuous query? How are they used?
+
+to downsample data, they continuously query the data 
 
 ## Question 6:
 **Design a schema**
