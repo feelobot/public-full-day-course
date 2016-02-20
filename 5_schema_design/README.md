@@ -82,6 +82,8 @@ SELECT min(so2_level) FROM polutants WHERE time > now() - 1d AND city='nyc' GROU
 Design a schema for the data above (e.g. What values should be tags, fields, etc).
 >**Note:** that the measurement name is `polutants`.
 
+polutants 
+
 ### Question 6B: 
 Create a 24 hour retention policy that is the `DEFAULT` retention policy for the database.
 
